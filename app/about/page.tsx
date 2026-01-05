@@ -57,7 +57,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <SectionReveal>
         <section className="px-6 text-center mb-20">
-          <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight text-black mb-16">
+          <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight text-black mb-16"> 
             {heroText.split("").map((char, i) => (
               <motion.span
                 key={i}
