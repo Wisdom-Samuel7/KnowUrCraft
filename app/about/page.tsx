@@ -35,14 +35,14 @@ export default function AboutPage() {
       {/* Floating Lotties */}
       <motion.div
         style={{ x: -mouse.x * 50, y: -mouse.y * 50 }}
-        className="absolute top-138 left-10 w-32"
+        className="absolute top-130 left-2 w-32"
       >
         <Lottie animationData={musicAnim} loop autoplay />
       </motion.div>
 
       <motion.div
         style={{ x: mouse.x * 40, y: -mouse.y * 30 }}
-        className="absolute top-28 right-20 w-28"
+        className="absolute top-20 right-5 w-28"
       >
         <Lottie animationData={pianoAnim} loop autoplay />
       </motion.div>
