@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -11,6 +14,34 @@ export default function Footer() {
             Crafting modern digital experiences with clarity, creativity, and
             purpose.
           </p>
+
+          {/* Social Icons */}
+          <div className="flex space-x-4 mt-6">
+            <Link
+              href="https://www.instagram.com/knowurcraft"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-pink-500 transition"
+            >
+              <FaInstagram size={22} />
+            </Link>
+            <Link
+              href="https://www.youtube.com/@knowurcraft"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-red-500 transition"
+            >
+              <FaYoutube size={22} />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/knowurcraft-wisdom-samuel-775832239/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-blue-600 transition"
+            >
+              <FaLinkedin size={22} />
+            </Link>
+          </div>
         </div>
 
         {/* Links */}
