@@ -35,7 +35,7 @@ export default function AboutPage() {
       {/* Floating Lotties */}
       <motion.div
         style={{ x: -mouse.x * 50, y: -mouse.y * 50 }}
-        className="absolute top-130 left-2 w-32"
+        className="absolute top-124 left-2 w-32"
       >
         <Lottie animationData={musicAnim} loop autoplay />
       </motion.div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
 
       <motion.div
         style={{ x: -mouse.x * 30, y: mouse.y * 40 }}
-        className="absolute bottom-10 left-1/3 w-24"
+        className="absolute bottom-8 left-1/3 w-24"
       >
         <Lottie animationData={devAnim} loop autoplay />
       </motion.div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
       {/* Mission Section */}
       <SectionReveal>
         <section className="max-w-4xl mx-auto px-6 py-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-400">
             Our Mission
           </h2>
           <p className="text-gray-700 text-lg md:text-xl">
@@ -96,7 +96,7 @@ export default function AboutPage() {
       {/* Vision Section */}
       <SectionReveal>
         <section className="max-w-4xl mx-auto px-6 py-12 text-center bg-gray-50 rounded-2xl shadow-md my-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-400">
             Our Vision
           </h2>
           <p className="text-gray-700 text-lg md:text-xl">
@@ -108,7 +108,7 @@ export default function AboutPage() {
       {/* Story Section */}
       <SectionReveal>
         <section className="max-w-5xl mx-auto px-6 py-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-400">
             Our Story
           </h2>
           <p className="text-gray-700 text-lg md:text-xl">
