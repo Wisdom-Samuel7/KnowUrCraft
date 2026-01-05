@@ -12,7 +12,7 @@ const links = [
   { name: "Services", href: "/services" },
   { name: "Work", href: "/work" },
   { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
+  // { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
