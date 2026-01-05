@@ -62,7 +62,8 @@ export default function Hero() {
 </div>
          
         </motion.h1>
-</MagneticText>
+</MagneticText> 
+
 </div>
         {/* Description */}
         <motion.p

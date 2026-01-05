@@ -14,6 +14,7 @@ export default function AboutPage() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
 
+
   const handleMouseMove = (e: React.MouseEvent) => {
     if (!sectionRef.current) return;
     const rect = sectionRef.current.getBoundingClientRect();
@@ -34,21 +35,21 @@ export default function AboutPage() {
       {/* Floating Lotties */}
       <motion.div
         style={{ x: -mouse.x * 50, y: -mouse.y * 50 }}
-        className="absolute top-150 left-10 w-32"
+        className="absolute top-138 left-10 w-32"
       >
         <Lottie animationData={musicAnim} loop autoplay />
       </motion.div>
 
       <motion.div
         style={{ x: mouse.x * 40, y: -mouse.y * 30 }}
-        className="absolute top-32 right-20 w-28"
+        className="absolute top-28 right-20 w-28"
       >
         <Lottie animationData={pianoAnim} loop autoplay />
       </motion.div>
 
       <motion.div
         style={{ x: -mouse.x * 30, y: mouse.y * 40 }}
-        className="absolute bottom-20 left-1/3 w-24"
+        className="absolute bottom-10 left-1/3 w-24"
       >
         <Lottie animationData={devAnim} loop autoplay />
       </motion.div>
@@ -71,6 +72,14 @@ export default function AboutPage() {
           </h1>
         </section>
       </SectionReveal>
+
+      <div>
+        <img
+          alt="Studio Picture"
+          className="w-full h-40 object-cover mb-2"
+          src="/portfolio/studiopics.jpeg"
+        />
+      </div>
 
       {/* Mission Section */}
       <SectionReveal>

@@ -19,11 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-          <Cursor />
+        <Cursor />
         <SmoothScroll>
-          <Navbar />
-          <PageTransition>{children}</PageTransition>
-          <Footer />
+        <Navbar />
+        <PageTransition>{children}</PageTransition>
+        <Footer />
         </SmoothScroll>
       </body>
     </html>

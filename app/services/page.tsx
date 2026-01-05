@@ -17,7 +17,7 @@ export default function ServicesPage() {
     {
       title: "Music Production",
       description:
-        "Professional music production services to bring your sound to life.",
+        "Professional music production services to bring your sound to life. We have taught in schools interstate and have contributed to the growth many",
       icon: <Music size={36} className="text-white" />,
       color: "bg-red-500",
       animation: musicAnim,
